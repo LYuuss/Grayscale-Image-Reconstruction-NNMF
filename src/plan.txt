@@ -21,7 +21,7 @@ En effet, une image grises peut etre vu comme une matrice bidimensionnelle
 *illustration*
 
 Nous avons donc effectué des tests à l'aide de 3 methodes : NMF, SVD, SGD que nous détaillerons plus tard sur un grand jeu de données
-Le jeu étant un groupe de 500 images toutes différentes.
+Le jeu étant un groupe de 500 images toutes différentes extrait depuis Kaggle:Landscape greyscale images.
 
 *Slides qui présente rigouserement chaque méthode (préparation des données, formules ...)*
 
