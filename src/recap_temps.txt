@@ -1,0 +1,6 @@
+===== Récapitulatif des temps d'exécution (en secondes) first 500=====
+r	NMF		SVD		SGD
+10	11.200		54.027		312.656(~5min)
+20	14.106		53.791		310.085(~5min)
+30	15.772		53.903		313.919(~5min)
+

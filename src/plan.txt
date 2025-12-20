@@ -1,0 +1,30 @@
+Reconstruction d'images grises par NMF, SVD, SGD
+
+L'objectif a été de reconstruire de manière fidèle des images grises auxquelles des parties ont été retirées.
+*montré un exemple : image original -> image parties retiré -> image reconstruite*
+
+La reconstruction d’image joue un rôle central dans de nombreuses applications réelles. En imagerie médicale (IRM, scanner...), 
+elle permet de reconstruire des images de qualité à partir de mesures partielles.
+On l’utilise également pour la vidéosurveillance et les images satellites ou de drones, afin d’augmenter la résolution, 
+combler des zones manquantes ou fusionner plusieurs prises de vue.
+*illustrations*
+
+La reconstruction d’image peut être abordée par un grand nombre de méthodes différentes. Il n’existe pas de nombre fini ou standard de techniques, 
+mais plutôt plusieurs grandes familles de méthodes, au sein desquelles on décline de nombreuses variantes selon le modèle utilisé et les contraintes du problème
+*exemple de famille de méthode*
+
+En l'occurence, nous allons nous attarder sur la methode de décomposition matricielle.
+*centré sur la décomposition matricielle*
+
+En effet, une image grises peut etre vu comme une matrice bidimensionnelle
+     pour laquelle chaque entré est une valeur entre 0 255 représentant une teinte de gris allant du noir (=0) au blanc (=255) 
+*illustration*
+
+Nous avons donc effectué des tests à l'aide de 3 methodes : NMF, SVD, SGD que nous détaillerons plus tard sur un grand jeu de données
+Le jeu étant un groupe de 500 images toutes différentes.
+
+*Slides qui présente rigouserement chaque méthode (préparation des données, formules ...)*
+
+Comparer les résultats obtenues
+
+Conclusion
